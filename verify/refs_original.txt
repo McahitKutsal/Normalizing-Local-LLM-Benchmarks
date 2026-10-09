@@ -1,0 +1,62 @@
+[1] E. Frantar, S. Ashkboos, T. Hoefler, and D. Alistarh, "GPTQ: Accurate post-training quantization for generative pre-trained transformers," in Proc. Int. Conf. Learn. Represent. (ICLR), 2023.
+[2] J. Lin, J. Tang, H. Tang, S. Yang, W.-M. Chen, W.-C. Wang, G. Xiao, X. Dang, C. Gan, and S. Han, "AWQ: Activation-aware weight quantization for on-device LLM compression and acceleration," in Proc. Mach. Learn. Syst. (MLSys), 2024.
+[3] G. Xiao, J. Lin, M. Seznec, H. Wu, J. Demouth, and S. Han, "SmoothQuant: Accurate and efficient post-training quantization for large language models," in Proc. 40th Int. Conf. Mach. Learn. (ICML), vol. 202, 2023, pp. 38087-38099.
+[4] T. Dettmers, M. Lewis, Y. Belkada, and L. Zettlemoyer, "LLM.int8(): 8-bit matrix multiplication for transformers at scale," in Adv. Neural Inf. Process. Syst. (NeurIPS), 2022.
+[5] H. Badri and A. Shaji, "Half-quadratic quantization of large machine learning models," Mobius Labs Tech. Rep., 2023.
+[6] G. Gerganov et al., "llama.cpp: LLM inference in C/C++," GitHub repository, ggml-org/llama.cpp, 2023-2026.
+[7] W. Kwon, Z. Li, S. Zhuang, Y. Sheng, L. Zheng, C. H. Yu, J. Gonzalez, H. Zhang, and I. Stoica, "Efficient memory management for large language model serving with PagedAttention," in Proc. 29th ACM Symp. Oper. Syst. Princ. (SOSP), 2023, pp. 611-626.
+[8] T. Dao, "FlashAttention-2: Faster attention with better parallelism and work partitioning," in Proc. Int. Conf. Learn. Represent. (ICLR), 2024.
+[9] NVIDIA Corporation, "TensorRT-LLM: A TensorRT toolbox for large language models," GitHub repository, 2023-2026.
+[10] Turboderp, "ExLlamaV2: An inference library for running local LLMs on modern consumer GPUs," GitHub repository, turboderp-org/exllamav2, 2023-2026.
+[11] L. Zheng, L. Yin, Z. Xie, C. Sun, J. Huang, C. H. Yu, S. Cao, C. Kozyrakis, I. Stoica, J. E. Gonzalez, C. Barrett, and Y. Sheng, "SGLang: Efficient execution of structured language model programs," in Adv. Neural Inf. Process. Syst. (NeurIPS), 2024, pp. 62557-62583.
+[12] C. F. Ruan, Y. Qin, X. Zhou, R. Lai, H. Jin, Y. Dong, B. Hou, M.-S. Yu, Y. Zhai, S. Agarwal, H. Cao, S. Feng, and T. Chen, "WebLLM: A high-performance in-browser LLM inference engine," arXiv:2412.15803, 2024.
+[13] Y. Sheng, L. Zheng, B. Yuan, Z. Li, M. Ryabinin, B. Chen, P. Liang, C. Re, I. Stoica, and C. Zhang, "FlexGen: High-throughput generative inference of large language models with a single GPU," in Proc. 40th Int. Conf. Mach. Learn. (ICML), vol. 202, 2023, pp. 31094-31116.
+[14] Y. Song, Z. Mi, H. Xie, and H. Chen, "PowerInfer: Fast large language model serving with a consumer-grade GPU," in Proc. 30th ACM Symp. Oper. Syst. Princ. (SOSP), 2024.
+[15] A. Eliseev and D. Mazur, "Fast inference of mixture-of-experts language models with offloading," arXiv:2312.17238, 2023.
+[16] L. Xue, Y. Fu, Z. Lu, L. Mai, and M. Marina, "MoE-Infinity: Efficient MoE inference on personal machines with sparsity-aware expert cache," arXiv:2401.14361, 2025.
+[17] K. Kamahori, T. Tang, Y. Gu, K. Zhu, and B. Kasikci, "Fiddler: CPU-GPU orchestration for fast inference of mixture-of-experts models," in Proc. Int. Conf. Learn. Represent. (ICLR), 2025.
+[18] S. Zhong, Y. Sun, L. Liang, R. Wang, R. Huang, and M. Li, "HybriMoE: Hybrid CPU-GPU scheduling and cache management for efficient MoE inference," in Proc. 62nd ACM/IEEE Des. Autom. Conf. (DAC), 2025, pp. 1-7.
+[19] S. Zhong, L. Liang, Y. Wang, R. Wang, R. Huang, and M. Li, "AdapMoE: Adaptive sensitivity-based expert gating and management for efficient MoE inference," in Proc. 43rd IEEE/ACM Int. Conf. Comput.-Aided Des. (ICCAD), 2025, pp. 1-9.
+[20] Z. Zhu, G. Li, P. Wang, Z. Mo, M. Pei, Z. Song, X. Liang, and J. Cheng, "DALI: A workload-aware offloading framework for efficient MoE inference on local PCs," arXiv:2602.03495, 2026.
+[21] S. Rajbhandari, O. Ruwase, J. Rasley, S. Smith, and Y. He, "ZeRO-Infinity: Breaking the GPU memory wall for extreme scale deep learning," in Proc. Int. Conf. High Perform. Comput. Netw. Storage Anal. (SC), 2021, pp. 1-14.
+[22] S. Williams, A. Waterman, and D. Patterson, "Roofline: An insightful visual performance model for multicore architectures," Commun. ACM, vol. 52, no. 4, pp. 65-76, 2009.
+[23] R. Pope, S. Douglas, A. Chowdhery, J. Devlin, J. Bradbury, A. Levskaya, J. Heek, K. Xiao, S. Agrawal, and J. Dean, "Efficiently scaling transformer inference," in Proc. Mach. Learn. Syst. (MLSys), 2023.
+[24] Y. Leviathan, M. Kalman, and Y. Matias, "Fast inference from transformers via speculative decoding," in Proc. 40th Int. Conf. Mach. Learn. (ICML), 2023, pp. 19274-19286.
+[25] T. Cai, Y. Li, Z. Geng, H. Peng, J. D. Lee, D. Chen, and T. Dao, "Medusa: Simple LLM inference acceleration framework with multiple decoding heads," in Proc. 41st Int. Conf. Mach. Learn. (ICML), 2024.
+[26] Y. Li, F. Wei, C. Zhang, and H. Zhang, "EAGLE: Speculative sampling requires rethinking feature uncertainty," in Proc. 41st Int. Conf. Mach. Learn. (ICML), 2024.
+[27] Y. Li, F. Wei, C. Zhang, and H. Zhang, "EAGLE-3: Scaling up inference acceleration of large language models via training-time test," arXiv:2503.01840, 2025.
+[28] H. Xia, Z. Yang, Q. Dong, P. Wang, Y. Li, T. Ge, T. Liu, W. Li, and Z. Sui, "Unlocking efficiency in large language model inference: A comprehensive survey of speculative decoding," in Findings Assoc. Comput. Linguistics (ACL), 2024.
+[29] J. Knoop and co-author, "Private LLM inference on consumer Blackwell GPUs: A practical guide for cost-effective local deployment in SMEs," arXiv:2601.09527, 2026.
+[30] Puget Systems Labs, "LLM inference: Consumer GPU performance," Tech. Rep., 2024.
+[31] Menlo Research, "Benchmarking NVIDIA TensorRT-LLM on consumer GPUs," Tech. Rep., 2024.
+[32] NVIDIA Corporation, "Accelerating LLMs with llama.cpp on NVIDIA RTX systems," NVIDIA Tech. Blog, 2024.
+[33] Anonymous, "Energy efficiency of locally deployed LLMs: A preliminary quantitative GPU power benchmark on consumer hardware," arXiv:2608.00008, 2026.
+[34] Anonymous, "TokenPowerBench: Benchmarking the power consumption of LLM inference," in Proc. AAAI Conf. Artif. Intell., 2026.
+[35] J. You, J.-W. Chung, and M. Chowdhury, "Zeus: Understanding and optimizing GPU energy consumption of DNN training," in Proc. 20th USENIX Symp. Netw. Syst. Des. Implement. (NSDI), 2023.
+[36] J.-W. Chung et al., "The ML.ENERGY benchmark: Toward automated inference energy measurement and optimization," arXiv:2505.06371, 2025.
+[37] Anonymous, "Where do the joules go? Diagnosing inference energy consumption," arXiv:2601.22076, 2026.
+[38] Anonymous, "Characterization of request and token energy costs for LLM inference workloads on GPU platforms," arXiv:2608.28044, 2026.
+[39] Anonymous, "A systematic evaluation of on-device LLMs: Quantization, performance, and resources," arXiv:2505.15030, 2025.
+[40] J. Xu, Z. Li, W. Chen, Q. Wang, X. Gao, Q. Cai, and Z. Ling, "On-device language models: A comprehensive review," arXiv:2409.00088, 2024.
+[41] Anonymous, "Efficient inference for edge large language models: A survey," Tsinghua Sci. Technol., 2025.
+[42] Anonymous, "Large language model inference acceleration: A comprehensive hardware perspective," arXiv:2410.04466, 2024.
+[43] Anonymous, "Accelerating language giants: A survey of optimization strategies for LLM inference on hardware platforms," Comput. Sci. Rev., 2026.
+[44] Anonymous, "On-device large language models for mobile applications: A systematic survey of optimization strategies, deployment challenges, and privacy implications," ScienceOpen Preprints, 2026.
+[45] Anonymous, "RooflineBench: A benchmarking framework for on-device LLMs via roofline analysis," arXiv:2602.11506, 2026.
+[46] Llama Team, AI @ Meta, "The Llama 3 herd of models," arXiv:2407.21783, 2024.
+[47] Qwen Team, "Qwen3 technical report," arXiv:2505.09388, 2025.
+[48] Gemma Team, "Gemma 3 technical report," arXiv:2503.19786, 2025.
+[49] A. Q. Jiang et al., "Mixtral of experts," arXiv:2401.04088, 2024.
+[50] OpenAI, "gpt-oss-120b and gpt-oss-20b model card," arXiv:2508.10925, 2025.
+[51] NVIDIA Corporation, "NVFP4: A 4-bit floating-point format for Blackwell tensor cores," NVIDIA Tech. Rep., 2025.
+[52] Open Compute Project, "OCP microscaling formats (MX) specification, version 1.0," 2023.
+[53] E. Frantar and D. Alistarh, "SparseGPT: Massive language models can be accurately pruned in one-shot," in Proc. 40th Int. Conf. Mach. Learn. (ICML), 2023, pp. 10323-10337.
+[54] Y. J. Kim, R. Fahim, and H. H. Awadalla, "Mixture of quantized experts (MoQE): Complementary effect of low-bit quantization and robustness," arXiv:2310.02410, 2023.
+[55] Y. Park, J. Hyun, S. Cho, B. Sim, and J. W. Lee, "Any-precision LLM: Low-cost deployment of multiple, different-sized LLMs," in Proc. 41st Int. Conf. Mach. Learn. (ICML), vol. 235, 2024, pp. 39682-39701.
+[56] V. J. Reddi et al., "MLPerf inference benchmark," in Proc. 47th ACM/IEEE Annu. Int. Symp. Comput. Archit. (ISCA), 2020, pp. 446-459.
+[57] MLCommons Association, "MLPerf Client benchmark, version 0.6," Tech. Rep., 2025.
+[58] C. J. Pais, "Introducing LocalScore: A local LLM benchmark," Mozilla Builders Project, 2025.
+[59] L. Gao et al., "A framework for few-shot language model evaluation," EleutherAI lm-evaluation-harness, 2024.
+[60] M. J. Page et al., "The PRISMA 2020 statement: An updated guideline for reporting systematic reviews," BMJ, vol. 372, no. 71, 2021.
+[61] Anonymous, "Understanding and mitigating numerical sources of nondeterminism in LLM inference," arXiv:2506.09501, 2025.
+[62] Anonymous, "Meta-metrics and best practices for system-level inference performance benchmarking," arXiv:2508.10251, 2025.

@@ -1,0 +1,9 @@
+model,params_b,active_b,container,bits_per_weight,kv_bits,layers,kv_heads,head_dim,sliding_window,window_pattern,prompt_tokens,generated_tokens,gpu,bandwidth_gbs,tok_s,batch,phase,resident,speculative,spec_accept,power_w,energy_j_tok,energy_window
+Mistral-7B,,,AWQ-4,4.5856,16,,,,,,2048,512,RTX 4090,,170.63,1,mixed,yes,no,,,,
+Mistral-7B,,,Q4_K_M,4.8287,16,,,,,,2048,512,RTX 4090,,100.43,1,mixed,yes,no,,,,
+Mistral-7B,,,AWQ-4,4.5856,16,,,,,,2048,512,RTX 3090,,144.19,1,mixed,yes,no,,,,
+Mistral-7B,,,Q4_K_M,4.8287,16,,,,,,2048,512,RTX 3090,,88.7,1,mixed,yes,no,,,,
+Mistral-7B,,,Q4_K_M,4.8287,16,,,,,,512,0,RTX 4060 Ti 16GB,,55.1,1,decode,yes,no,,,,
+Qwen3-8B,,,NVFP4,4.5000,16,,,,,,8192,512,RTX 5090,,411.0,8,decode/total,yes,no,,,,
+Qwen3-8B,,,NVFP4,4.5000,16,,,,,,8192,512,RTX 5070 Ti,,211.0,8,decode/total,yes,no,,,,
+Qwen3-8B,,,NVFP4,4.5000,16,,,,,,8192,512,RTX 5060 Ti 16GB,,115.0,8,decode/total,yes,no,,,,
